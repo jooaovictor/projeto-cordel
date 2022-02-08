@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@font-face {
+    font-family: 'fonttitulo';
+    src: url('Passion One');
+}
+@font-face {
+    font-family: '';
+    src: url('Sriracha');
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: black;
+    text-align: center;
+}
+h1{
+    padding-top: 50px;
+    color: white;
+    font-size: 2.7em;
+    text-align: center;
+    font-family: 'Passion One', cursive;
+}
+
+header > p   {
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Passion One', cursive;
+}
+  p > a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    font-size: 1.5em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+   padding-left: 30px;
+   font-family: 'Sriracha', cursive;
+   line-height: 2em;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(139, 132, 132);
+    color: white;
+}
+section.imagem > p{
+    background-color: rgba(90, 86, 86, 0.473);
+    width: 400px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 1.9em;
+    font-family: 'Passion One', cursive;
+}
