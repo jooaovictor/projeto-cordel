@@ -19,7 +19,7 @@ header{
 h1{
     padding-top: 50px;
     color: white;
-    font-size: 2.7em;
+    font-size: 5vw;
     text-align: center;
     font-family: 'Passion One', cursive;
 }
@@ -38,12 +38,15 @@ a:hover{
     text-decoration: underline;
 }
 section{
-    font-size: 1.5em;
+    font-size: 3.2vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
    padding-left: 30px;
    font-family: 'Sriracha', cursive;
    line-height: 2em;
+}
+section.normal > p{
+    padding-bottom: 8px;
 }
 section.normal{
     background-color: white;
@@ -53,12 +56,23 @@ section.normal{
 section.imagem{
     background-color: rgb(139, 132, 132);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem > p{
+    display: inline-block;
+    padding: 6px;
     background-color: rgba(90, 86, 86, 0.473);
-    width: 400px;
+    
 }
-
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center ;
+}
 footer{
     background-color: black;
     text-align: center;
