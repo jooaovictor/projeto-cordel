@@ -62,7 +62,8 @@ section.imagem{
 section.imagem > p{
     display: inline-block;
     padding: 6px;
-    background-color: rgba(90, 86, 86, 0.473);
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.315);
+    background-color: rgba(70, 67, 67, 0.185);
     
 }
 section#img01{
