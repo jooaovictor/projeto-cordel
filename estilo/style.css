@@ -57,7 +57,6 @@ section.imagem{
     background-color: rgb(139, 132, 132);
     color: white;
     background-size: cover;
-    background-attachment: fixed;
 }
 section.imagem > p{
     display: inline-block;
